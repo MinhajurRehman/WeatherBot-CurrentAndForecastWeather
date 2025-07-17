@@ -1,6 +1,6 @@
 # 🌦️ Weather Info & Forecast Bot using Google Dialogflow ES
 
-This project is a weather assistant chatbot built with **Dialogflow ES** and integrated with **OpenWeatherMap API** using a PHP webhook. It supports two main use cases: fetching the **current weather** and the **7-day forecast** for any city.
+This project is a weather assistant chatbot built with **Dialogflow ES** and integrated with **OpenWeatherMap API** using a PHP webhook. It supports two main use cases: fetching the **current weather** and the **5-day forecast** for any city.
 
 ---
 
