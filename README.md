@@ -16,7 +16,7 @@ This project is a weather assistant chatbot built with **Dialogflow ES** and int
 - User can ask:  
   - "What will be the weather in Lahore on Friday?"
   - "Is it going to rain in Karachi next Monday?"
-- The bot detects both **city** and **date** and responds with forecasted temperature and description (from the next 7 days).
+- The bot detects both **city** and **date** and responds with forecasted temperature and description (from the next 5 days).
 
 ---
 
@@ -27,7 +27,7 @@ This project is a weather assistant chatbot built with **Dialogflow ES** and int
 - **Ngrok** (Localhost tunneling for webhook testing)
 - **OpenWeatherMap API**
   - `/data/2.5/weather` for current weather
-  - `/data/2.5/onecall` for 7-day forecast
+  - `/data/2.5/onecall` for 5-day forecast
 
 ---
 
