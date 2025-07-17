@@ -28,8 +28,8 @@ if (!$city) {
 
 
        // ✅ Use 5-day forecast API instead (every 3-hour interval) for free
-$forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=$lat&lon=$lon&units=metric&appid=$apiKey";
-    $forecastData = json_decode(file_get_contents($forecastUrl), true);
+        $forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=$lat&lon=$lon&units=metric&appid=$apiKey";
+        $forecastData = json_decode(file_get_contents($forecastUrl), true);
     
     if (!empty($forecastData['list'])) {
         $targetDate = date('Y-m-d', strtotime($date));
